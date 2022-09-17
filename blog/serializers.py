@@ -6,7 +6,7 @@ from blog.models import Blog, Category, TechsiqTeam, CohortApplication
 class BlogSerializer(serializers.ModelSerializer):
   class Meta:
     model = Blog
-    fields = ['id','title','images', 'body','date_published']
+    fields = ['id','title','image', 'body','date_published']
     # 
 
 
